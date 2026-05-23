@@ -1,0 +1,27 @@
+# Compiled Java class files
+bin/
+*.class
+
+# SQLite Database (generated dynamically at runtime)
+*.sqlite
+*.db
+
+# Log files
+resources/logs/*
+!resources/logs/.gitkeep
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS metadata
+Thumbs.db
+.DS_Store
+
+# Package archives
+github_upload/
+github_upload.zip
